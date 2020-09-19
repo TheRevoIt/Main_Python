@@ -9,11 +9,10 @@ class Pen(Stationery):
 class Pencil(Stationery):
     def draw(self):
         print(f'Запуск отрисовки {self.__class__.__name__}')
-class Pencil(Stationery):
+class Handle(Stationery):
     def draw(self):
         print(f'Запуск отрисовки {self.__class__.__name__}')
 P = Pen('title1')
 Penc = Pencil('title2')
 P.draw()
 Penc.draw()
-Penc = Pencil('title2')
